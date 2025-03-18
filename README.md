@@ -99,6 +99,7 @@ git diff commit1..commit2	=>	git diff 4a9da7b..bfb0cc2
 Preserve changes made in the WORKING DIRECTORY or the STAGING AREA without commiting them
 	
 ## SECTION 11 - GITHUB BASICS
+
 ```sh
 git clone <url>		=>	get a local copy of an existing remote repository with its history; git creates and initializes the repo destination folder
 
@@ -136,9 +137,10 @@ git remote set-url <name> <url>	=>	git remote set-url origin https://github.com/
 git push <remote> <localBranch>:<remoteBranch>	=>	push a local branch to a remote branch with a different name; it will create it if it doesn't exist
 git push -u origin main		=>	sets the upstream connection of the local main branch, tracking the main branch on the remote origin repository
 		Establece una conexión directa entre la rama local y la remota, de forma que a partir de ahí ya solo es necesario "git push" para subir a la rama
-```sh
+```
 		
 ## SECTION 12 - FETCH & PULL
+
 ```sh
 REMOTE TRACKING BRANCH (origin/branchName): reference to the state of the homonimous branch on the remote; it can't moved by the user.
 git branch -r			=>	view the remote repositories our local repository knows about
@@ -157,7 +159,7 @@ git fetch <remote> <branch>	=>	fetch a specific branch from a remote
 git pull <remote> <branch>	=> retrieve changes from a remote repository, updating our working directory (equal to: git fetch + git merge). Whatever branch we run this command from is where the changes will be merged into. Pulls can result in merge conflicts.
 
 git pull			=> short syntax: remote defaults to origin & branch defaults to the tracking connection just configured for current local branch
-```sh
+```
 
 ## SECTION 13 - .md, GISTS & PAGES
 ### MARKDOWN (.md)
