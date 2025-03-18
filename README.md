@@ -1,8 +1,18 @@
 # DOCS-GIT
 
 ## SECTION 3 - COMMAND LINE
-ls	(~ HOME DIRECTORY)		"start ." (open windows explorer)	"ls DirectoryName"		"pwd"	"cd NameFolder/"	"cd .." (move backwards one level)
-"touch fileName.ext" (create 1 or + files)		"mkdir directoryName" 		"rm fileName.ext"		"rmdir directoryName" "rm -rf directoryName"
+```sh
+ls (~ HOME DIRECTORY)
+"start ." (open windows explorer)
+"ls DirectoryName"
+"pwd"
+"cd NameFolder/"
+"cd .." (move backwards one level)
+"touch fileName.ext" (create 1 or + files)
+"mkdir directoryName"
+"rm fileName.ext"
+"rmdir directoryName" "rm -rf directoryName"
+```
 
 PASTE IN GIT BASH: (Shift + Ins)
 cd /c/SRC/COURSES/UDEMY/GIT/
