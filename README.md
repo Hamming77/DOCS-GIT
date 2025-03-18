@@ -29,14 +29,19 @@ git config --global user.email user@email.com
 ```
 
 ## SECTION 4 - ADD & COMMIT
-git status				=>		gives information on the current status of a git repository and its contents
-git init				=>		Initialize a new Git repository: workspace that tracks and manages files within a folder, with its own history
+```sh
 	WORKING DIRECTORY		=>		STAGING AREA		=> 		LOCAL REPOSITORY	=> 		REMOTE REPOSITORY
-git add					=> 		from WORKING DIRECTORY, send to STAGING AREA the changes to be commited later: "git addd file1 file2", "git add ."
-git commit 				=>		commit changes from the STAGING AREA to the LOCAL REPOSITORY: git commit -m "My message when commiting"
+
+git status		=>		gives information on the current status of a git repository and its contents
+git init		=>		Initialize a new Git repository: workspace that tracks and manages files within a folder, with its own history
+
+git add			=> 		from WORKING DIRECTORY, send to STAGING AREA the changes to be commited later: "git addd file1 file2", "git add ."
+
+git commit 		=>		commit changes from the STAGING AREA to the LOCAL REPOSITORY: git commit -m "My message when commiting"
 git commit -a -m "msg"	=> 		add and commit in one command
 
-git log					=> 		log of the commits for a given repository
+git log			=> 		log of the commits for a given repository
+```
 
 ## SECTION 5 - COMMITS IN DETAIL
 git log --oneline		=>		log all the commits, with information of each commit formatted in just one line
