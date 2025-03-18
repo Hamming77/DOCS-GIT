@@ -10,13 +10,13 @@ cd /c/SRC/COURSES/UDEMY/GIT/
  code .					=>		Opens in the text editor (namely VS Code) the working directory and the branch you are currently working on
 
 ## SECTION 3 - CONFIGURE USER
-``sh
+```sh
 git config --l
 git config user.name
 git config user.email
 git config --global user.name "Firstname Lastname"
 git config --global user.email user@email.com
-``
+```
 
 ## SECTION 4 - ADD & COMMIT
 git status				=>		gives information on the current status of a git repository and its contents
